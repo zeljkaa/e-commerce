@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+     <!-- Custom Font awesome -->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+
+  <!-- bootstrap  -->
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+<!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+   
+   <!-- style.css -->
+ <link rel="stylesheet" href="css/style.css">
+    <title>E Shop</title>
+</head>
+<body>
+    
+<!-- navbar -->
+<nav class="navbar navbar-inverse navbar-default">
+    <div class="container-fluide">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brand" href="#">Brand</a> -->
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#"><i class="glyphicon glyphicon-earphone" style="color:white; padding-right: 10px; font-size: 17px;"></i> 020-800-584-669 |</a></li>
+          <li><a href="#"><i class="glyphicon glyphicon-globe" style="color:white; padding-right: 10px;"></i> Free shipping on orders over $200</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Log in</a> </li>
+          <li><a href="#">Register</a> </li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+<!-- before nav -->
+<div class="logo">
+     <img src="img/logo.png" class="text-center" alt="">  
+</div>
+
+<!-- navbar -->
+<nav class="navbar navbar-default">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!-- <a class="navbar-brand" href="#">Brand</a> -->
+      </div>
+  
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">HOME</a></li>
+        
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PRODUCT <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">WOMAN</a></li>
+              <li><a href="#">MAN</a></li>
+              <li><a href="#">SALE</a></li>
+            </ul>
+          </li>
+          <li><a href="aboutus.html">ABOUT US</a></li>
+          <li><a href="mailus.html">CONTACT</a></li>
+          <li><a href="#blog">BLOG</a></li>
+
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          
+         <i class="glyphicon glyphicon-search"></i>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"> <i class="glyphicon glyphicon-user"></i> User</a> </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="glyphicon glyphicon-shopping-cart">Cart</i> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Viev card</a></li>
+              <li><a href="#">Chechout</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Total amount:</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+ 
+<!-- CAROUSEL -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active box">
+        <img src="img/image3.jpg" alt="Chania">
+        <div class="carousel-caption text">
+          <h3>Only today we offer free shipping</h3>
+          <p>FASHION TRENDS</p>
+        </div>
+      </div>
+  
+      <div class="item box">
+        <img src="img/image2.jpg" alt="Chicago">
+        <div class="carousel-caption text">
+          <h3>Brend New</h3>
+          <p>HIGH QUALITY CLOATES</p>
+        </div>
+      </div>
+  
+      <div class="item box">
+        <img src="img/image1.jpg" alt="New York">
+        <div class="carousel-caption text">
+          <h3>Only today we offer free shipping</h3>
+          <p>30% - 70% OFF </p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><!-- kraj corousela -->
+
+
+<!-- SEKCIJA SA TRI SARENA DIVA -->
+  <div class="container-fluide text-center">
+        <div class="row">
+            <div class="col-md-4 box1 color1">
+                <h2>20% Discount on dresses</h2>
+                <p>USE CODE: Colorlib</p>
+            </div>
+            <div class="col-md-4 box1 color2">
+                    <h2>Free Shipping & Returns</h2>
+                    <p>BUY NOW</p>
+                </div>
+            <div class="col-md-4 box1 color3">
+                    <h2>10% Discount for students</h2>
+                     <p>USE CODE: Colorlib</p>
+             </div>
+        </div>
+    </div>
+
+    <!-- OUR FEATURED PICKS -->
+<div class="container">
+    <div class="row">
+        <div class="naslov">
+        <P id="gray">TOP FOR THIS MOUNTH</P>
+        <H2 class="boldi">OUR FEATURED PICKS</H2>
+         </div>
+
+          <h2 class="dif">Man</h2>
+        <div class="col-md-4 text-center hover">
+            <a href="product1.html"> <img src="img/product-03.jpg" class="img-responsive"></a> 
+                
+                <div class="product">
+                  <p>BLACK PRINT SHIRT</p>
+                  
+                  <i>44,00$</i>
+                  </div>
+      
+                <a class="butt" href="product1.html">View product</a>
+        </div>
+
+        <div class="col-md-4 text-center hover">
+          <a href="product2.html"> <img src="img/product-11.jpg" class="img-responsive"></a> 
+
+          <div class="product">
+            <p>BLACK PRINT SHIRT</p>
+            
+            <i>34,00$</i>
+            </div>
+            <a class="butt" href="product2.html">View product</a>
+
+            </div>
+
+            <div class="col-md-4 text-center hover">
+               <a href="product2.html"> <img src="img/product-12.jpg" class="img-responsive"></a> 
+
+              <div class="product">
+                <p>BLACK PRINT SHIRT</p>
+                
+                <i>22,00$</i>
+                </div>
+                <a class="butt" href="product3.html">View product</a><br><br><br><br>
+         </div>
+
+
+
+
+
+         <h2 class="dif">Woman</h2>
+         <div class="col-md-4 text-center hover">
+          <a href="product4.html"> <img src="img/product-08.jpg" class="img-responsive"></a>
+                 
+                 <div class="product">
+                   <p>BLACK PRINT SHIRT</p>
+                   
+                   <i>14,00$</i>
+                   </div>
+                   <a class="butt" href="product4.html">View product</a>
+                    
+         </div>
+
+         <div class="col-md-4 text-center hover">
+          <a href="product5.html"> <img src="img/product-16.jpg" class="img-responsive"></a>
+ 
+           <div class="product">
+             <p>BLACK PRINT SHIRT</p>
+             
+             <i>20,00$</i>
+             </div>
+             <a class="butt" href="product5.html">View product</a>
+ 
+             </div>
+             <div class="col-md-4 text-center hover">
+          <a href="product6.html"> <img src="img/product-13.jpg" class="img-responsive"></a>
+         
+               
+               <div class="product">
+                 <p>BLACK PRINT SHIRT</p>
+                 
+                 <i>22,00$</i>
+                 </div>
+                 <a class="butt" href="product6.html">View product</a>
+          </div>
+     </div>
+</div>
+
+
+<!-- SHOPPING TIME -->
+<section class="shopping-time">
+<div class="container">
+    <div class="row">
+          <div class="naslov">
+            <P id="gray">SHOPPING TIME</P>
+             <H2 class="boldi"> ITEMS ON SALE</H2>
+          </div>
+
+          <div class="col-md-4">
+            <div class="product-top">
+              <img class="img-responsive" src="img/product-1.jpg" alt="">
+              <div class="overlay-right ">
+                <button type="button" class="btn btn-secondary" title="Quick Shop" ><i class="fa fa-eye"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to wish list" ><i class="fa fa-heart"></i></button>
+                <button type="button" class="btn btn-secondary" title="Add to cart" ><i class="fa fa-shopping-cart"></i></button>
+              </div>
+            </div>
+              <div class="product">
+                <p>JEANS MIDI DRESS</p>
+                <span><del>88,00$</del></span>
+                <i>33,00$</i>
+              </div>
+          </div>
+          
+          <div class="col-md-4">
+              <div class="product-top">
+                <img class="img-responsive" src="img/product-2.jpg" alt="">
+                <div class="overlay-right ">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop" ><i class="fa fa-eye"></i></button>
+                    <button type="button" class="btn btn-secondary" title="Add to wish list" ><i class="fa fa-heart"></i></button>
+                    <button type="button" class="btn btn-secondary" title="Add to cart" ><i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+                <div class="product">
+                 <p>BLACK PRINT SHIRT</p>
+                 <span><del>85,00$</del></span>
+                 <i>44,00$</i>
+                 </div>
+         </div>
+
+            <div class="col-md-4">
+                <div class="product-top">
+                <img class="img-responsive" src="img/product-3.jpg" alt=""> 
+                <div class="overlay-right ">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop" ><i class="fa fa-eye"></i></button>
+                    <button type="button" class="btn btn-secondary" title="Add to wish list" ><i class="fa fa-heart"></i></button>
+                    <button type="button" class="btn btn-secondary" title="Add to cart" ><i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>    
+                <div class="product">
+                 <p>SHORTS STRIPPLE</p>
+                 <span><del>86,00$</del></span>
+                 <i>45,00$</i>
+                 </div>     
+         </div>
+
+         <div class="col-md-4">
+            <div class="product-top">
+                <img class="img-responsive" src="img/product-4.jpg" alt="">
+                <div class="overlay-right ">
+                    <button type="button" class="btn btn-secondary" title="Quick Shop" ><i class="fa fa-eye"></i></button>
+                    <button type="button" class="btn btn-secondary" title="Add to wish list" ><i class="fa fa-heart"></i></button>
+                    <button type="button" class="btn btn-secondary" title="Add to cart" ><i class="fa fa-shopping-cart"></i></button>
+                  </div>
+                </div>
+                <div class="product">
+                  <p>JEANS MIDI DRESS</p>
+                  <span><del>56,00$</del></span>
+                  <i>33,00$</i>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="product-top">
+                  <img class="img-responsive" src="img/product-5.jpg" alt="">
+                  <div class="overlay-right ">
+                      <button type="button" class="btn btn-secondary" title="Quick Shop" ><i class="fa fa-eye"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to wish list" ><i class="fa fa-heart"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to cart" ><i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                  </div>
+                  <div class="product">
+                   <p>BLACK PRINT SHIRT</p>
+                   <span><del>76,00$</del></span>
+                   <i>35,00$</i>
+                   </div>
+           </div>
+  
+              <div class="col-md-4">
+                  <div class="product-top">
+                  <img class="img-responsive" src="img/product-6.jpg" alt=""> 
+                  <div class="overlay-right ">
+                      <button type="button" class="btn btn-secondary" title="Quick Shop" ><i class="fa fa-eye"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to wish list" ><i class="fa fa-heart"></i></button>
+                      <button type="button" class="btn btn-secondary" title="Add to cart" ><i class="fa fa-shopping-cart"></i></button>
+                    </div>
+                  </div>    
+                  <div class="product">
+                   <p>SHORTS STRIPPLE</p>
+                   <span><del>99,00$</del></span>
+                   <i>57,00$</i>
+                   </div>     
+           </div>
+    </div>
+  </div>
+</section>
+
+<!-- REKLAMA SECTION -->
+<section class="reklama">
+    <div class="container-fluide">
+        <div class="row">
+            <div class="reklamica">
+                <h2><em>New Collection</em></h2>
+                <H2 class="bold">HUGE SALES</H2>
+                <h2><em>At our outlet stores</em></h2><br>
+                <a href="#" class="butt">Shop now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SALE SECTION -->
+<div class="container">
+  <div class="row">
+      <div class="naslov">
+          <P id="gray">TOP FOR THIS MOUNTH</P>
+          <H2 class="boldi">OUR FEATURES</H2>
+        </div>
+
+    <div class="col-md-4 pozadina">
+      <span>HOT</span>
+    </div>
+
+    <div class="col-md-4 prazan">
+      <img class="img-responsive" src="img/black.png" alt="">
+      </div>
+
+      <div class="col-md-4 pozadina2">
+          <span class="right" >NEW</span>
+        </div>
+</div>
+</div>
+
+<!-- posle popusta -->
+<section class="kraj">
+    <div class="container-fluide">
+        <div class="row">
+        <div class="col-md-4 kut ">
+         <i class="fas fa-truck "></i>
+          <h3>FREE SHIPPING & RETURN</h3>
+          <p>Free shipping over $200</p>
+         
+        </div>
+      
+        <div class="col-md-4 kut" style="border-left: 1px solid #fff;">
+            <i class="fas fa-comment-dollar"></i>
+            <h3>MANEY BACK GUARANTE</h3>
+            <P>30 Days Money Back Guarantee</P>
+          </div>
+      
+      
+          <div class="col-md-4 kut" style="border-left: 1px solid #fff;">
+              <i class="fas fa-phone"></i>
+              <h3>020-800-456-747</h3>
+              <P>24/7 Available Support</P>
+            </div>
+        </div>
+      </div>
+</section>
+
+
+
+<!-- BLOG SECTION -->
+<section class="prodavnica" id="blog">
+    <div class="container">
+      <div class="row">
+          <div class="naslov">
+              <P id="gray">TOP FOR THIS MOUNTH</P>
+              <H2 class="boldi">OUR BLOG</H2>
+            </div>
+
+        <div class="col-md-4 box-for-item">
+          <img class="img-responsive" src="img/blog-01.jpg" alt="">
+          <h3>Black Friday Guide: Best Sales & Discount Codes</h3>
+         <p class="light">By Nancy Ward on July 22, 2017</p>
+         <p class="light">Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames</p>
+        </div>
+
+        <div class="col-md-4 box-for-item">
+            <img class="img-responsive" src="img/blog-02.jpg" alt="">
+            <h3>The White Sneakers Nearly Every Fashion Girls Own</h3>
+          <p class="light">By Nancy Ward on July 22, 2017</p>
+         <p class="light">Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames</p>
+         </div>
+
+          <div class="col-md-4 box-for-item">
+              <img class="img-responsive" src="img/blog-03.jpg" alt="">
+              <h3>New York SS 2018 Street Style: Annina Mislin</h3>
+               <p class="light">By Nancy Ward on July 22, 2017</p>
+              <p class="light">Duis ut velit gravida nibh bibendum commodo. Sus-pendisse pellentesque mattis augue id euismod. Inter-dum et malesuada fames</p>
+            </div>
+
+      </div>
+    </div>
+  </section>
+
+<!-- CLIENTS SECTION -->
+<div class="container">
+  <div class="row">
+
+      <div class="naslov">
+          <P id="gray">TOP FOR THIS MOUNTH</P>
+          <H2 class="boldi">OUR CLIENTS</H2>
+        </div>
+
+    <div class="col-md-3">
+      <img src="img/client4.png" alt="">
+    </div>
+
+    <div class="col-md-3">
+        <img src="img/client2.png" alt="">
+      </div>
+
+      <div class="col-md-3">
+          <img src="img/client3.png" alt="">
+        </div>
+
+        <div class="col-md-3">
+            <img src="img/client4.png" alt="">
+          </div>
+  </div>
+</div>
+
+
+<!-- FOOTER SECTION -->
+<footer class="foot">
+  <div class="container">
+    <div class="row">
+
+  
+      <div class="col-md-3">
+        <h3>SUBSCRIBE</h3>
+        <P>and get 10% discount</P>
+        <hr>
+        <input type="email" placeholder="Enter your email">
+        <hr>
+        <a class="butt" href="#">SUBSCRIBE</a>
+      </div>
+
+      <div class="col-md-3">
+        <h3><bold>Customer Service</bold></h3>
+        <p>Help Center</p>
+        <p>How to buy</p>
+        <p>Delivery</p>
+        <p>How to return</p>
+        <p>Payment Method</p>
+      </div>
+
+      <div class="col-md-3">
+          <h3><bold>Company</bold></h3>
+          <p>Login</p>
+          <p>Register</p>
+          <p>Wishlist</p>
+          <p>Our product</p>
+          <p>Checkouts</p>
+        </div>
+
+        <div class="div-col-3">
+            <h3><bold>Daily offers & Discounts</bold></h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+            <hr>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-square"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ZELJKA VULIN -->
+<div class="container-fluide design">
+  <div class="row">
+    <div>
+      <h4>&copy; 2019 Željka Vulin</h4>
+    </div>
+  </div>
+</div>
+
+
+
+  <!-- jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <!-- MAIN.JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
